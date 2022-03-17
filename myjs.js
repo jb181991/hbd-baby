@@ -33,7 +33,6 @@ var eff = document.getElementById('parent');
 
   //Closing a wrap
   closeB.addEventListener('click', function () {
-    sound.stop();
     eff.setAttribute("style","visibility: hidden;");
     card.setAttribute('class', 'close-half');
     if (timer) clearTimerout(timer);
