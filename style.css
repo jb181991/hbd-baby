@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Just+Me+Again+Down+Here&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -8,8 +7,15 @@
 }
 body {
   background: #E5E5E5;
-  background-image: url("/gray-floral.png");
+  /* background-image: url("/gray-floral.png"); */
   padding: 50px;
+}
+
+#my-image {
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem rgb(255, 255, 255), -0.5rem -0.5rem #ccc;
+  height: 25%;
+  width: auto;
 }
 
 #card-front {
@@ -23,6 +29,7 @@ body {
 .wrap {
     padding: 1.5em 2.5em;
     height: 100%;
+    text-align: center;
 }
 #card-front, #card-inside {
   width: 50%;
